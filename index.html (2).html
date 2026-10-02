@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pawan Yadav | Desktop Engineer | Networking & IT Infrastructure</title>
+<meta name="description" content="Pawan Yadav is a Desktop Engineer with practical experience in IT support, networking, OLT/ONU, FTTH, system administration and security systems.">
+<meta name="keywords" content="Desktop Engineer, IT Support, Networking, Network Support, OLT, ONU, FTTH, Fiber Networking, System Administration, Desktop Support, Technical Support, CCTV, IP Camera, DVR, NVR, Router Configuration, Switch Configuration, Windows, Linux, Python, SQL">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050a14;--panel:rgba(16,28,50,.62);--line:rgba(120,170,255,.16);--cy:#22d3ee;--bl:#3b82f6;--tx:#eaf0fb;--mu:#93a4c0;--ok:#34d399;--h:'Sora','Segoe UI',system-ui,sans-serif;--b:'IBM Plex Sans','Segoe UI',system-ui,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 16px/1.65 var(--b);background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:56px 56px;background-attachment:fixed}
+body::before{content:"";position:fixed;inset:0;background:radial-gradient(ellipse at 70% 0,rgba(34,211,238,.10),transparent 55%),var(--bg);opacity:.93;z-index:-1}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:var(--h);line-height:1.15;margin:0}
+h2{font-size:clamp(1.6rem,3.4vw,2.3rem);margin-bottom:.6rem}
+h3{font-size:1.02rem;margin-bottom:.5rem}
+p{margin:0 0 1rem;max-width:68ch}
+.wrap{max-width:1160px;margin:auto;padding:0 20px}
+section{padding:88px 0}
+.sub{color:var(--mu);max-width:62ch;margin-bottom:2rem}
+:focus-visible{outline:2px solid var(--cy);outline-offset:3px}
+nav{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top,0px);background:rgba(5,10,20,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font:700 1rem var(--h);letter-spacing:.04em}.logo i{color:var(--cy);font-style:normal}
+.links{display:flex;gap:4px}
+.links a{padding:8px 11px;font-size:.82rem;color:var(--mu);border-radius:6px;position:relative;transition:color .2s}
+.links a:hover,.links a.on{color:var(--tx)}
+.links a.on::after{content:"";position:absolute;left:11px;right:11px;bottom:2px;height:2px;background:var(--cy);box-shadow:0 0 8px var(--cy)}
+#burger{display:none;background:none;border:1px solid var(--line);color:var(--tx);border-radius:8px;width:44px;height:40px;font-size:1.2rem;cursor:pointer}
+@media(max-width:960px){#burger{display:block}.links{display:none;position:absolute;top:calc(64px + env(safe-area-inset-top,0px));left:0;right:0;flex-direction:column;background:#070e1c;padding:10px 20px 18px;border-bottom:1px solid var(--line)}.links.open{display:flex}.links a{padding:12px 4px}}
+.btn{display:inline-block;padding:13px 22px;border-radius:8px;font:600 .92rem var(--h);border:1px solid var(--cy);cursor:pointer;transition:transform .2s,box-shadow .2s;background:none;color:var(--tx)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 6px 24px rgba(34,211,238,.25)}
+.btn.p{background:var(--cy);color:#04111a}
+.btn.s{border-color:var(--line);color:var(--mu)}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:1.6rem}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:22px;backdrop-filter:blur(6px);transition:transform .25s,border-color .25s,box-shadow .25s}
+.card:hover{transform:translateY(-4px);border-color:rgba(34,211,238,.45);box-shadow:0 12px 34px rgba(0,0,0,.35)}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+ul{margin:0;padding-left:1.1rem;color:var(--mu)}li{margin:.2rem 0}
+.mono{font-family:ui-monospace,'SF Mono',Consolas,monospace}
+/* hero */
+#home{min-height:100vh;display:flex;align-items:center;padding:110px 0 60px}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+@media(max-width:900px){.hero{grid-template-columns:1fr}}
+h1{font-size:clamp(2.6rem,7vw,4.8rem);letter-spacing:.01em;font-weight:700}
+.role{font:600 clamp(.95rem,2vw,1.15rem) var(--h);color:var(--cy);margin:1rem 0}
+.status{margin-top:22px;max-width:440px}
+.status h3{display:flex;justify-content:space-between;font-size:.85rem;color:var(--mu)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);margin-right:6px;box-shadow:0 0 8px var(--ok);animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.35}}
+.st{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
+.st div{font-size:.7rem;color:var(--mu);border:1px solid var(--line);border-radius:8px;padding:8px}
+.st b{display:block;color:var(--ok);font-size:.72rem}
+.note{font-size:.72rem;color:var(--mu);margin-top:10px}
+/* topology */
+.topo{display:flex;flex-direction:column;align-items:center;padding:6px 0}
+.node{width:min(100%,260px);text-align:center;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:rgba(10,20,38,.85);color:var(--tx);font:600 .86rem var(--h);cursor:pointer;transition:all .25s}
+.node small{display:block;font:400 .7rem var(--b);color:var(--mu)}
+.node:hover,.node.hl,.node.sel{border-color:var(--cy);box-shadow:0 0 18px rgba(34,211,238,.35);transform:scale(1.03)}
+.node.dim{opacity:.4}
+.link{width:2px;height:22px;background:var(--line);position:relative;overflow:hidden;transition:background .25s}
+.link.hl{background:var(--cy)}
+.link::after{content:"";position:absolute;left:0;width:2px;height:7px;background:var(--cy);box-shadow:0 0 6px var(--cy);animation:pk 1.6s linear infinite}
+@keyframes pk{from{top:-8px}to{top:24px}}
+.nwrap{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}
+@media(max-width:800px){.nwrap{grid-template-columns:1fr}}
+#info{min-height:200px;position:sticky;top:90px}
+#info h3{color:var(--cy);font-size:1.25rem}
+.tag{font-size:.75rem;color:var(--mu);margin-bottom:.8rem}
+/* fiber */
+.fiber{display:flex;align-items:center;gap:0;margin:10px 0 30px;flex-wrap:nowrap}
+.fn{flex:0 0 auto;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--panel);font:600 .85rem var(--h)}
+.fl{flex:1;height:3px;background:rgba(34,211,238,.18);position:relative;overflow:hidden;min-width:14px}
+.fl::after{content:"";position:absolute;top:0;height:3px;width:34px;background:linear-gradient(90deg,transparent,var(--cy),transparent);animation:fb 2.2s linear infinite}
+@keyframes fb{from{left:-40px}to{left:100%}}
+@media(max-width:640px){.fiber{flex-direction:column}.fl{width:3px;height:26px;flex:none}.fl::after{width:3px;height:30px;background:linear-gradient(180deg,transparent,var(--cy),transparent);animation:fv 2.2s linear infinite}@keyframes fv{from{top:-30px}to{top:100%}}}
+/* security */
+.sec{display:flex;flex-wrap:wrap;gap:26px;align-items:center}
+.chain{display:flex;align-items:center;gap:0;flex-wrap:wrap}
+.chain .fn{display:flex;gap:8px;align-items:center;cursor:pointer;transition:all .25s}
+.chain .fn.hl{border-color:var(--cy);box-shadow:0 0 16px rgba(34,211,238,.3)}
+.chain .fl{width:26px;flex:none}
+svg.ic{width:22px;height:22px;stroke:var(--cy);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}
+/* timeline */
+.tl{border-left:2px solid var(--line);margin-left:8px;padding-left:26px;position:relative}
+.tl::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--cy);box-shadow:0 0 12px var(--cy)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:.84rem;color:var(--mu);background:rgba(10,20,38,.6);cursor:pointer;transition:all .2s}
+.chip:hover,.chip.on{color:var(--tx);border-color:var(--cy)}
+.chip.on{background:rgba(34,211,238,.12)}
+.resp li{transition:color .2s}.resp li:hover{color:var(--tx)}
+/* skills */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.lvl{display:inline-block;font-size:.78rem;color:var(--ok);border:1px solid rgba(52,211,153,.35);border-radius:6px;padding:2px 8px;margin-bottom:14px}
+.lvl.w{color:var(--cy);border-color:rgba(34,211,238,.4)}
+/* db flow */
+.flow{display:flex;flex-wrap:wrap;gap:0;align-items:center;margin:22px 0}
+.flow .fl{width:24px;flex:none}
+.edu{border-left:2px solid var(--line);padding-left:24px}
+.edu .card{margin-bottom:16px}
+.soft{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.soft div{padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--panel);font:600 .9rem var(--h);transition:all .25s}
+.soft div:hover{border-color:var(--cy);transform:translateY(-3px)}
+.dash{border:1px dashed rgba(34,211,238,.4)}
+footer{border-top:1px solid var(--line);padding:36px 0;color:var(--mu);font-size:.88rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between}
+#toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:#0b1730;border:1px solid var(--cy);padding:12px 18px;border-radius:10px;font-size:.88rem;opacity:0;pointer-events:none;transition:opacity .3s;z-index:90;max-width:90vw}
+#toast.show{opacity:1}
+.rv{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav aria-label="Main"><div class="wrap">
+<a href="#home" class="logo">PAWAN<i>.</i>YADAV</a>
+<button id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+<div class="links" id="links">
+<a href="#home">Home</a><a href="#about">About</a><a href="#networking">Networking</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#esatis">eSATIS</a><a href="#contact">Contact</a>
+</div></div></nav>
+
+<main>
+<section id="home"><div class="wrap hero">
+<div>
+<h1>PAWAN YADAV</h1>
+<p class="role">Desktop Engineer | IT Support | Networking | OLT/ONU | FTTH</p>
+<p>Building reliable IT infrastructure through networking, system support, fiber connectivity and technical troubleshooting.</p>
+<div class="btns"><a class="btn p" href="#experience">View My Experience</a><a class="btn p resume" href="Pawan-Yadav-Resume.pdf" download>Download Resume</a><a class="btn s" href="#contact">Connect With Me</a></div>
+<div class="card status" aria-label="Portfolio visualization of network status">
+<h3><span><i class="dot"></i>NETWORK STATUS: Infrastructure Ready</span></h3>
+<div class="st"><div>OLT<b>ONLINE</b></div><div>ONU<b>CONNECTED</b></div><div>LAN<b>STABLE</b></div><div>SYSTEMS<b>OPERATIONAL</b></div></div>
+<p class="note">Design element only. This is a portfolio visualization, not live monitoring of any real network.</p>
+</div></div>
+<div class="card"><div class="topo" id="topoHero" role="group" aria-label="Network infrastructure diagram"></div></div>
+</div></section>
+
+<section id="about"><div class="wrap rv">
+<h2>About me</h2>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
+<div class="card"><p>I am a B.Tech Computer Science and Engineering graduate from MDU University, Rohtak, Haryana, with a CGPA of 7.87/10. I currently work as a Desktop Engineer at Orion Optibeam Securenet Pvt. Ltd.</p>
+<p>I also have working knowledge of Python, SQL, GitHub, AWS and Docker, which I use to keep learning beyond day-to-day support work.</p></div>
+<div class="card"><h3>Practical experience</h3><ul><li>OLT and ONU management</li><li>Router, switch and PoE switch configuration</li><li>LAN/network troubleshooting</li><li>Desktop and laptop support, hardware and software troubleshooting</li><li>CCTV and IP cameras, DVR/NVR</li><li>Fire alarm, biometric and Public Address systems</li><li>ERP/business application, printer and general IT support</li></ul></div>
+</div></div></section>
+
+<section id="networking"><div class="wrap rv">
+<h2>Networking & Infrastructure</h2>
+<p class="sub">Select any node to see what I work with at that layer. Hover to highlight related connections. This is an illustrative architecture, not a live system.</p>
+<div class="nwrap"><div class="topo" id="topoMain" role="group" aria-label="Interactive network topology"></div>
+<div class="card" id="info" aria-live="polite"></div></div>
+
+<h2 id="olt" style="margin-top:80px">OLT / ONU & FTTH</h2>
+<p class="sub">From the service provider to the user's device over fiber.</p>
+<div class="fiber"><div class="fn">ISP</div><div class="fl"></div><div class="fn">OLT</div><div class="fl"></div><div class="fn">Fiber</div><div class="fl"></div><div class="fn">ONU</div><div class="fl"></div><div class="fn">User</div></div>
+<div class="grid">
+<div class="card"><h3>OLT Management</h3><p style="color:var(--mu)">Managing the Optical Line Terminal and the ONUs connected to it.</p></div>
+<div class="card"><h3>ONU Configuration</h3><p style="color:var(--mu)">Setting up user-side fiber termination and network access.</p></div>
+<div class="card"><h3>FTTH Connectivity</h3><p style="color:var(--mu)">Supporting fiber-to-the-home connections from the network to end users.</p></div>
+<div class="card"><h3>Fiber Network Troubleshooting</h3><p style="color:var(--mu)">Diagnosing connectivity issues across the OLT, fiber and ONU path.</p></div>
+</div>
+
+<h2 style="margin-top:80px">IT Support & Desktop Engineering</h2>
+<p class="sub">Day-to-day support for users, systems and devices.</p>
+<div class="grid">
+<div class="card"><h3>Desktop Support</h3><ul><li>Desktop installation</li><li>Laptop configuration</li><li>Hardware troubleshooting</li><li>OS installation</li></ul></div>
+<div class="card"><h3>System Support</h3><ul><li>Windows</li><li>Linux</li><li>Software troubleshooting</li><li>User account support</li></ul></div>
+<div class="card"><h3>Network Support</h3><ul><li>LAN</li><li>IP addressing</li><li>DNS</li><li>DHCP</li><li>Router/switch configuration</li></ul></div>
+<div class="card"><h3>Peripheral Support</h3><ul><li>Printers</li><li>External devices</li><li>Hardware peripherals</li></ul></div>
+</div>
+
+<h2 style="margin-top:80px">Security & Surveillance Systems</h2>
+<p class="sub">A diagram of how these systems connect. No live feeds are shown, and none of this represents systems currently running.</p>
+<div class="card"><div class="sec">
+<div class="chain" id="secChain">
+<div class="fn" data-k="cam"><svg class="ic" viewBox="0 0 24 24"><path d="M3 8h13v8H3zM16 11l5-3v8l-5-3"/></svg>CCTV Camera</div><div class="fl"></div>
+<div class="fn" data-k="poe"><svg class="ic" viewBox="0 0 24 24"><path d="M4 9h16v6H4zM8 12h.01M12 12h.01M16 12h.01"/></svg>Network / PoE</div><div class="fl"></div>
+<div class="fn" data-k="nvr"><svg class="ic" viewBox="0 0 24 24"><path d="M3 6h18v12H3zM7 10h6M7 14h3"/></svg>NVR / DVR</div><div class="fl"></div>
+<div class="fn" data-k="mon"><svg class="ic" viewBox="0 0 24 24"><path d="M3 5h18v11H3zM8 20h8M12 16v4"/></svg>Monitoring System</div>
+</div></div>
+<div class="chips" style="margin-top:22px">
+<span class="chip" style="cursor:default"><svg class="ic" style="width:16px;height:16px;vertical-align:-3px" viewBox="0 0 24 24"><path d="M12 3c3 4 5 6 5 9a5 5 0 0 1-10 0c0-3 2-5 5-9z"/></svg> Fire Alarm</span>
+<span class="chip" style="cursor:default"><svg class="ic" style="width:16px;height:16px;vertical-align:-3px" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 0-4 4v4M16 8v6a4 4 0 0 1-4 4M12 8v6M8 15c0 3 2 5 4 5"/></svg> Biometric Attendance</span>
+<span class="chip" style="cursor:default"><svg class="ic" style="width:16px;height:16px;vertical-align:-3px" viewBox="0 0 24 24"><path d="M4 10v4h3l5 4V6l-5 4zM16 9a4 4 0 0 1 0 6"/></svg> PA System</span>
+</div></div>
+</div></section>
+
+<section id="experience"><div class="wrap rv">
+<h2>Professional experience</h2>
+<div class="tl"><div class="card">
+<h3 style="font-size:1.25rem">Desktop Engineer</h3>
+<div class="tag mono" style="color:var(--mu)">Orion Optibeam Securenet Pvt. Ltd. · August 2026 – Present</div>
+<p style="color:var(--mu);margin-bottom:0">Select an area to see the related responsibilities.</p>
+<div class="chips" id="respTabs"></div>
+<ul class="resp" id="respList" style="margin-top:16px"></ul>
+</div></div>
+</div></section>
+
+<section id="skills"><div class="wrap rv">
+<h2>Technical skills</h2>
+<p class="sub">Grouped by how I have used them, not by percentages.</p>
+<div class="tabs" id="skTabs" role="tablist"></div>
+<div class="card" id="skBody"></div>
+</div></section>
+
+<section id="projects"><div class="wrap rv">
+<h2>Hospital Management System</h2>
+<div class="card"><p>A digital system focused on patient record handling and workflow management, using SQL for data storage and retrieval.</p>
+<div class="chips"><span class="chip">Patient record management</span><span class="chip">SQL database</span><span class="chip">Data storage and retrieval</span><span class="chip">Workflow management</span><span class="chip">Documentation</span><span class="chip">Problem solving</span></div>
+<div class="flow"><div class="fn">User</div><div class="fl"></div><div class="fn">Application</div><div class="fl"></div><div class="fn">SQL Database</div><div class="fl"></div><div class="fn">Patient Records</div></div>
+<p class="note" style="margin:0">Academic project.</p></div>
+</div></section>
+
+<section id="education"><div class="wrap rv">
+<h2>Education</h2>
+<div class="edu">
+<div class="card"><h3>B.Tech, Computer Science & Engineering</h3><div class="tag">MDU University, Rohtak, Haryana · 2022–2026 · CGPA 7.87/10</div>
+<div class="chips" style="margin-top:0"><span class="chip">DBMS</span><span class="chip">Operating Systems</span><span class="chip">Computer Networks</span><span class="chip">Data Structures</span></div></div>
+<div class="card"><h3>Class XII, Science</h3><div class="tag" style="margin:0">RBSE · 2021 · 91%</div></div>
+<div class="card"><h3>Class X</h3><div class="tag" style="margin:0">RBSE · 2019 · 76.45%</div></div>
+</div>
+<h2 style="margin-top:70px">Professional skills</h2>
+<div class="soft"><div>Problem Solving</div><div>Analytical Thinking</div><div>Communication</div><div>Team Coordination</div><div>Leadership</div><div>Time Management</div><div>Customer Handling</div><div>Vendor Coordination</div><div>Independent Working</div><div>Quick Learning</div></div>
+</div></section>
+
+<section id="esatis"><div class="wrap rv">
+<h2>eSATIS</h2>
+<div class="card dash"><h3>Company / Venture</h3>
+<p style="color:var(--mu)">Company profile details coming soon.</p>
+<ul><li>Role</li><li>Company description</li><li>Products and services</li><li>Responsibilities</li><li>Technologies</li><li>Business contribution</li><li>Projects</li></ul></div>
+</div></section>
+
+<section id="contact"><div class="wrap rv">
+<h2>Let's connect</h2>
+<div class="card" style="max-width:560px"><h3 style="font-size:1.3rem;margin-bottom:.2rem">Pawan Yadav</h3>
+<div class="tag">Desktop Engineer · Bhiwadi, Rajasthan, India</div>
+<p style="margin-bottom:.4rem">Email: <a href="mailto:pawan3ydv@gmail.com" style="color:var(--cy)">pawan3ydv@gmail.com</a></p>
+<p style="margin-bottom:.4rem">Phone: <a href="tel:+917823066246" style="color:var(--cy)">+91-7823066246</a></p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/pawan-yadav-776126382" target="_blank" rel="noopener" style="color:var(--cy)">linkedin.com/in/pawan-yadav-776126382</a></p>
+<div class="btns" style="margin-top:.6rem"><a class="btn p" href="https://www.linkedin.com/in/pawan-yadav-776126382" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="mailto:pawan3ydv@gmail.com">Email Me</a><a class="btn s resume" href="Pawan-Yadav-Resume.pdf" download>Download Resume</a></div></div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<div><b style="color:var(--tx);font-family:var(--h)">PAWAN YADAV</b><br>Desktop Engineer | Networking | IT Infrastructure<br>© 2026 Pawan Yadav. All rights reserved.</div>
+<div><a href="https://www.linkedin.com/in/pawan-yadav-776126382" target="_blank" rel="noopener">LinkedIn</a> | <a href="mailto:pawan3ydv@gmail.com">Email</a> | <span title="GitHub link to be added">GitHub</span></div>
+</div></footer>
+<div id="toast" role="status"></div>
+
+<script>
+const N=[
+{id:'internet',t:'Internet',s:'External network',i:['Connection to the wider network and service provider','Entry point into the infrastructure'],g:['router']},
+{id:'router',t:'Router',s:'Core router',i:['IP routing','Network connectivity','LAN/WAN configuration'],g:['internet','router','switch']},
+{id:'switch',t:'Switch',s:'Core / network switch',i:['LAN connectivity','Device communication','Network segmentation'],g:['router','switch','poe']},
+{id:'poe',t:'PoE Switch',s:'Power over Ethernet',i:['Powers and connects network devices such as IP cameras','PoE switch configuration'],g:['switch','poe','olt']},
+{id:'olt',t:'OLT',s:'Optical Line Terminal',i:['Fiber network management','ONU connectivity','Optical network infrastructure'],g:['poe','olt','onu','ftth']},
+{id:'onu',t:'ONU',s:'Optical Network Unit',i:['Fiber termination','User-side connectivity','Network access'],g:['olt','onu','ftth','users']},
+{id:'ftth',t:'FTTH / Fiber Network',s:'Fiber to the home',i:['Fiber connectivity to end users','Fiber network troubleshooting'],g:['olt','onu','ftth','users']},
+{id:'users',t:'End Users',s:'Desktops, laptops, devices',i:['Desktop and laptop support','Peripherals and printers','User-side network access'],g:['onu','ftth','users']}];
+function build(el,compact){el.innerHTML='';N.forEach((n,k)=>{if(k){const l=document.createElement('div');l.className='link';l.dataset.to=n.id;el.appendChild(l)}
+const b=document.createElement('button');b.className='node';b.dataset.id=n.id;b.innerHTML=n.t+(compact?'':'<small>'+n.s+'</small>');b.setAttribute('aria-label',n.t+' - '+n.s);
+b.onmouseenter=b.onfocus=()=>hl(el,n);b.onmouseleave=b.onblur=()=>hl(el,null);
+if(!compact)b.onclick=()=>show(n);el.appendChild(b)})}
+function hl(el,n){const g=n?n.g.concat(n.id):[];el.querySelectorAll('.node').forEach(x=>{const on=g.includes(x.dataset.id);x.classList.toggle('hl',!!n&&on);x.classList.toggle('dim',!!n&&!on)});
+el.querySelectorAll('.link').forEach(l=>{const idx=N.findIndex(x=>x.id===l.dataset.to);l.classList.toggle('hl',!!n&&g.includes(N[idx].id)&&g.includes(N[idx-1].id))})}
+const info=document.getElementById('info');
+function show(n){document.querySelectorAll('#topoMain .node').forEach(x=>x.classList.toggle('sel',x.dataset.id===n.id));
+info.innerHTML='<h3>'+n.t+'</h3><div class="tag">'+n.s+'</div><ul>'+n.i.map(x=>'<li>'+x+'</li>').join('')+'</ul><p class="note" style="margin-top:14px">Illustrative portfolio topology.</p>'}
+build(document.getElementById('topoHero'),true);build(document.getElementById('topoMain'),false);show(N[4]);
+// security hover
+const sc=document.getElementById('secChain'),sg={cam:['cam','poe'],poe:['cam','poe','nvr'],nvr:['poe','nvr','mon'],mon:['nvr','mon']};
+sc.querySelectorAll('.fn').forEach(f=>{const on=()=>sc.querySelectorAll('.fn').forEach(x=>x.classList.toggle('hl',sg[f.dataset.k].includes(x.dataset.k))),off=()=>sc.querySelectorAll('.fn').forEach(x=>x.classList.remove('hl'));f.onmouseenter=on;f.onmouseleave=off;f.tabIndex=0;f.onfocus=on;f.onblur=off});
+// experience
+const R={'Networking':['OLT & ONU management','Router and switch configuration','PoE switch configuration','LAN setup and troubleshooting','Printer and network support'],
+'Desktop & Systems':['Desktop/laptop installation and support','Hardware upgrades','Windows/Linux support','ERP/business software support'],
+'Security Systems':['CCTV/IP camera installation','DVR/NVR systems','Fire alarm systems','Biometric attendance systems','PA systems'],
+'Coordination':['Client and manager coordination']};
+const rt=document.getElementById('respTabs'),rl=document.getElementById('respList');
+Object.keys(R).forEach((k,i)=>{const c=document.createElement('button');c.className='chip';c.textContent=k;c.onclick=()=>{rt.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');rl.innerHTML=R[k].map(x=>'<li>'+x+'</li>').join('')};rt.appendChild(c);if(!i)c.click()});
+// skills
+const S={'Networking':['Practical Experience',['TCP/IP','DNS','DHCP','LAN/WAN','IP Addressing','Router Configuration','Switch Configuration','PoE Switches']],
+'OLT / FTTH':['Practical Experience',['OLT Management','ONU Configuration','FTTH','Fiber Connectivity']],
+'System Administration':['Practical Experience',['Windows','Linux','OS Installation','Hardware Troubleshooting','Software Troubleshooting','User Account Management']],
+'Security Systems':['Practical Experience',['CCTV','IP Cameras','DVR/NVR','Fire Alarm','Biometric Systems','PA Systems']],
+'Programming & Database':['Working Knowledge',['Python Fundamentals','SQL','CRUD Operations']],
+'Tools & Platforms':['Working Knowledge',['GitHub','AWS','Docker','MS Office','MS Outlook','Gmail']]};
+const st=document.getElementById('skTabs'),sb=document.getElementById('skBody');
+Object.keys(S).forEach((k,i)=>{const c=document.createElement('button');c.className='chip';c.textContent=k;c.setAttribute('role','tab');c.onclick=()=>{st.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');
+sb.innerHTML='<span class="lvl '+(S[k][0][0]=='W'?'w':'')+'">'+S[k][0]+'</span><div class="chips" style="margin:0">'+S[k][1].map(x=>'<span class="chip" style="cursor:default">'+x+'</span>').join('')+'</div>'};st.appendChild(c);if(!i)c.click()});
+// nav
+const bg=document.getElementById('burger'),lk=document.getElementById('links');
+bg.onclick=()=>{const o=lk.classList.toggle('open');bg.setAttribute('aria-expanded',o)};
+lk.querySelectorAll('a').forEach(a=>a.onclick=()=>lk.classList.remove('open'));
+const secs=[...document.querySelectorAll('section')];
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');const id=e.target.closest('section').id;lk.querySelectorAll('a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+id))}}),{threshold:.2});
+document.querySelectorAll('.rv').forEach(x=>io.observe(x));
+// resume
+const tt=document.getElementById('toast');
+document.querySelectorAll('.resume').forEach(a=>a.onclick=e=>{e.preventDefault();tt.textContent='Resume PDF will be available once it is uploaded to this site.';tt.classList.add('show');setTimeout(()=>tt.classList.remove('show'),3500)});
+</script>
+</body>
+</html>
